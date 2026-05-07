@@ -1,0 +1,43 @@
+{
+  "name": "Full Example Build",
+  "description": "A comprehensive example covering every optional field.",
+  "ascendancy": "Stormweaver",
+  "passives": [
+    "PassiveNode_001",
+    {
+      "id": "PassiveNode_Keystone",
+      "level_interval": [1, 50],
+      "weapon_set": 0,
+      "additional_text": "<bold>{ Keystone }  — allocate early"
+    }
+  ],
+  "skills": [
+    "GemId_Fireball",
+    {
+      "id": "GemId_LightningBolt",
+      "level_interval": [12, 100],
+      "additional_text": "<italics>{ Primary nuke }",
+      "support_skills": [
+        "GemId_AddedLightning",
+        {
+          "id": "GemId_SpellEcho",
+          "level_interval": [18, 100],
+          "additional_text": "<red>{ Must be 20-quality }"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "inventory_id": "Weapon",
+      "slot_x": 0,
+      "slot_y": 0,
+      "unique_name": "Doomfletch",
+      "additional_text": "<rgb(255, 200, 0)>{ BIS until maps }"
+    },
+    {
+      "inventory_id": "Helm",
+      "level_interval": [68, 100]
+    }
+  ]
+}

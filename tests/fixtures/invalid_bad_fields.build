@@ -1,0 +1,15 @@
+{
+  "name": "Bad Fields Build",
+  "description": 42,
+  "passives": [
+    {"id": "", "weapon_set": -1, "level_interval": [50, 10]},
+    12345
+  ],
+  "skills": [
+    {"id": "GemId_Fire", "support_skills": [{"id": "GemId_Echo", "additional_text": "<unknowntag>{ text }"}]}
+  ],
+  "items": [
+    {"inventory_id": "Helm", "slot_x": "not-an-int"}
+  ],
+  "extra_field": "should not be here"
+}
